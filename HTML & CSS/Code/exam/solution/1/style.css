@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font: 14px/1.5 "Inter", serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.buttons {
+  margin-top: 2em;
+  display: flex;
+  gap: 1rem;
+}
+
+.btn:first-child:hover {
+  background-color: black;
+  color:  #ffffff;
+}
+
+.btn:first-child {
+  background-color: #42aa59;
+  border: 1px solid black;
+}
+
+.btn:last-child {
+  background-color: #ffffff;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8.563rem;
+  height: 3.125rem;
+  border-radius: 0.2em;
+}
+
+
+.inner-container {
+  display: flex;
+  align-items: center;
+  padding: 2.5em;
+  gap: 5.5rem;
+}
+
+.container {
+  width: 66rem;
+  height: 38rem;
+  background: #85dcff;
+  display: flex;
+}
+
+.image-container {
+  width: 23rem;
+  height: 30rem;
+  -webkit-box-shadow: 10px 10px 9px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 9px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 9px 3px rgba(0, 0, 0, 0.75);
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.inner-container-left h2 {
+  font-size: 2.7rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 2.5rem;
+  width: 80%;
+}
